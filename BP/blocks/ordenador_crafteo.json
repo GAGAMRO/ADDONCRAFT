@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "rg:ordenador_crafteo",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:friction": 0.8,
+			"minecraft:flammable": true,
+			"minecraft:light_emission": 10,
+			"minecraft:map_color": "#878686",
+			"minecraft:loot": "loot_tables/entities/skeleton.json",
+			"minecraft:crafting_table": {
+				"crafting_tags": [
+					"mesa_computadora_crafteo"
+				],
+				"table_name": "§2COMPUCRAFTING"
+			}
+		}
+	}
+}

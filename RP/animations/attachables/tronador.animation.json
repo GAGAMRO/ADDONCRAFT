@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.rg_tronador.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [
+						0,
+						3,
+						0
+					],
+					"rotation": [
+						-5,
+						80,
+						180
+					]
+				}
+			}
+		},
+		"animation.rg_tronador.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [
+						92.33163,
+						-8.54317,
+						-3.71683
+					],
+					"position": [
+						0,
+						-1,
+						0
+					]
+				}
+			}
+		}
+	}
+}

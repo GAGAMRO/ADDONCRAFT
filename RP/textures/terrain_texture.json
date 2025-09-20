@@ -1,0 +1,17 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "ADDONCRAFT",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"rg_mesa_piedra": {
+			"textures": "textures/blocks/remade-mossy-cobblestone"
+		},
+		"rg_mesa_compu": {
+			"textures": "textures/blocks/computish-command-block"
+		},
+		"rg_ordenador_crafteo": {
+			"textures": "textures/blocks/command-block"
+		}
+	}
+}

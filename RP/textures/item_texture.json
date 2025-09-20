@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "ADDONCRAFT",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"rg_acero": {
+			"textures": "textures/items/rg_acero"
+		},
+		"rg_tomahawk": {
+			"textures": "textures/items/rg_tomahawk"
+		},
+		"rg_tronador": {
+			"textures": "textures/items/tronador"
+		}
+	}
+}

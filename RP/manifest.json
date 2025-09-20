@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"BATBOA"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Addoncraft",
+		"description": "Aprende a hacer tu addon :3",
+		"min_engine_version": [
+			1,
+			21,
+			80
+		],
+		"uuid": "81872c13-e4bf-4581-9f4b-bcb7d0875a7b",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "49781239-a074-45f4-9241-336e075a8b26",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d2f6fe17-028a-46f4-a9c2-b1433bcd24b5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

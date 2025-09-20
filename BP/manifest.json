@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"BATBOA"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Addoncraft",
+		"description": "Aprende a hacer tu addon",
+		"min_engine_version": [
+			1,
+			21,
+			80
+		],
+		"uuid": "d2f6fe17-028a-46f4-a9c2-b1433bcd24b5",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fa7a29bc-0903-4633-8548-3d253c5ca446",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "5d300ee1-9c59-4103-9da1-b6fbd039b19f",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "81872c13-e4bf-4581-9f4b-bcb7d0875a7b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

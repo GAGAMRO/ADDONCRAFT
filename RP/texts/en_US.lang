@@ -1,0 +1,10 @@
+pack.name=ADDONCRAFT RP
+pack.description=Aprende a hacer tu addon :3
+item.rg:acero=Acero
+item.rg:tomahawk=Tomahawk
+tile.rg:mesa_piedra.name=Mesa de piedra
+tile.rg:mesa_compu.name=Mesa de compu
+tile.rg:ordenador_crafteo.name=Ordenador de crafteo
+item.rg:tronador=Tronador
+entity.rg:h2o.name=H2O
+item.spawn_egg.entity.rg:h2o.name=Spawn H2O

@@ -1,0 +1,19 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"rg:mesa_piedra": {
+		"sound": "stone",
+		"textures": "rg_mesa_piedra"
+	},
+	"rg:mesa_compu": {
+		"sound": "stone",
+		"textures": "rg_mesa_compu"
+	},
+	"rg:ordenador_crafteo": {
+		"sound": "stone",
+		"textures": "rg_ordenador_crafteo"
+	}
+}

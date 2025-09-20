@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "rg:hacha_tw"
+		},
+		"tags": [
+			"mesa_personalizada"
+		],
+		"pattern": [
+			"AA ",
+			"AB ",
+			" B "
+		],
+		"key": {
+			"A": {
+				"data": 0,
+				"item": "rg:acero"
+			},
+			"B": {
+				"data": 0,
+				"item": "stick"
+			}
+		},
+		"result": {
+			"count": 1,
+			"item": "rg:tomahawk"
+		}
+	}
+}

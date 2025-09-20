@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rg:h2o",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"body": "blaze_body",
+				"head": "blaze_head"
+			},
+			"textures": {
+				"default": "textures/entity/h2o"
+			},
+			"geometry": {
+				"default": "geometry.h2o"
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.h2o.move"
+			},
+			"particle_effects": {
+				"charged_flames": "minecraft:trial_spawner_detection_ominous"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.blaze.move"
+				},
+				{
+					"flame": "controller.animation.blaze.flame"
+				}
+			],
+			"render_controllers": [
+				"controller.render.blaze"
+			],
+			"spawn_egg": {
+				"base_color": "#61d1de",
+				"overlay_color": "#12219f"
+			}
+		}
+	}
+}
