@@ -1,0 +1,1 @@
+Puedes usar este addon para ver como hacer las cositas, solo se muy precavido porque cualquier error puede hacer que nada funcione, trata de seguir todo como lo digo en los videos, y tambien puedes guiarte por la wiki de dev, de minecraft bedrock, MUCHISIMA SUERTE CON TUS ADDONS Y DALE!
