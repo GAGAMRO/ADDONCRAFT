@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.slender.move": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{"walking": "q.ground_speed > 1.0"},
+						{"agua": "query.is_in_contact_with_water"}
+					],
+					"blend_transition": 0.2
+				},
+				"walking": {
+					"animations": ["move"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.5"}
+					],
+					"blend_transition": 0.2
+				},
+				"agua": {
+					"animations": ["nadar"],
+					"transitions": [
+						{"idle": "!query.is_in_contact_with_water"}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

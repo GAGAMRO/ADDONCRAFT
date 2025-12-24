@@ -1,0 +1,51 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rg:zombie_helado",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/zombie_hielo"
+			},
+			"geometry": {
+				"default": "geometry.zombie.v1.8"
+			},
+			"render_controllers": [
+				"controller.render.zombie_helado"
+			],
+			"spawn_egg": {
+				"base_color": "#4CCEEB",
+				"overlay_color": "#ACDBED"
+			},
+			"animations": {
+				"humanoid_big_head": "animation.humanoid.big_head",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"move": "animation.humanoid.move",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"holding": "animation.humanoid.holding",
+				"brandish_spear": "animation.humanoid.brandish_spear",
+				"charging": "animation.humanoid.charging",
+				"attack.rotations": "animation.humanoid.attack.rotations",
+				"sneaking": "animation.humanoid.sneaking",
+				"bob": "animation.humanoid.bob",
+				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+				"bow_and_arrow": "animation.humanoid.bow_and_arrow",
+				"use_item_progress": "animation.humanoid.use_item_progress",
+				"zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+				"swimming": "animation.zombie.swimming",
+				"riding.body": "animation.humanoid.riding.body",
+				"movimiento": "controller.animation.zombie.movimiento"
+			},
+			"scripts": {
+				"animate": [
+					"movimiento"
+				]
+			}
+		}
+	}
+}

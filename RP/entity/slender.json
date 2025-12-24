@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rg:slender",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/slender"
+			},
+			"geometry": {
+				"default": "geometry.slender"
+			},
+			"render_controllers": [
+				"controller.render.slender"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"idle": "animation.slender.idle",
+				"move": "animation.slender.move",
+				"nadar": "animation.slender.swim",
+				"move_controller": "controller.animation.slender.move"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			}
+		}
+	}
+}

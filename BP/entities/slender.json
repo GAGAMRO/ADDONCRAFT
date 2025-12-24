@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rg:slender",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 30
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:behavior.random_stroll": {},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.generic": {
+				"is_amphibious": true,
+				"can_path_over_water": false,
+				"can_swim": false,
+				"can_walk": true
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": false,
+				"avoid_damage_blocks": true,
+				"can_swim": true
+			},
+			"minecraft:movement": {
+				"value": 0.30
+			},
+			"minecraft:collision_box": {
+				"height": 2.9,
+				"width": 0.6
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			}
+		}
+	}
+}

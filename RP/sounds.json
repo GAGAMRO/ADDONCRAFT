@@ -1,5 +1,5 @@
 {
-    "entity_sounds": {
+	"entity_sounds": {
 		"entities": {
 			"rg:h2o": {
 				"events": {
@@ -8,7 +8,21 @@
 					"hurt": "mob.blaze.hit",
 					"shoot": "mob.blaze.shoot"
 				},
-				"pitch": [0.8, 1.2],
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"rg:zombie_helado": {
+				"events": {
+					"hurt": "beacon.activate",
+					"death": "mob.copper_golem.death"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
 				"volume": 1
 			}
 		}
