@@ -5,7 +5,19 @@
 			"identifier": "rg:zombie_helado",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"properties": {
+				"rg:ataques": {
+					"type": "enum",
+					"values": [
+						"golpe",
+						"bola_nieve",
+						"idle"
+					],
+					"default": "idle",
+					"client_sync": true
+				}
+			}
 		},
 		"components": {
 			"minecraft:type_family": {
@@ -178,6 +190,9 @@
 					"component_groups": [
 						"mele"
 					]
+				},
+				"set_property": {
+					"rg:ataques": "bola_nieve"
 				}
 			},
 			"minecraft:entity_spawned": {
@@ -190,6 +205,9 @@
 					"component_groups": [
 						"lanzar_snowball"
 					]
+				},
+				"set_property": {
+					"rg:ataques": "golpe"
 				}
 			}
 		}

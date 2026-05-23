@@ -59,6 +59,10 @@
 					}
 				]
 			},
+			"minecraft:cooldown": {
+				"category": "toma",
+				"duration": 5
+			},
 			"minecraft:tags": {
 				"tags": [
 					"minecraft:is_axe"

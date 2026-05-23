@@ -5,26 +5,35 @@
 			"initial_state": "idle",
 			"states": {
 				"idle": {
-					"animations": [
-						"riding.legs"
-					],
+					"animations": ["riding.legs"],
 					"transitions": [
-						{
-							"walking": "q.ground_speed > 1.0"
-						}
+						{"walking": "q.ground_speed > 1.0"},
+						{"disparo": "q.property('rg:ataques') == 'bola_nieve'"},
+						{"golpe": "q.property('rg:ataques') == 'golpe'"}
 					],
 					"blend_transition": 0.2
 				},
 				"walking": {
-					"animations": [
-						"riding.arms"
-					],
+					"animations": ["riding.arms"],
 					"transitions": [
-						{
-							"idle": "q.ground_speed < 0.5"
-						}
+						{"idle": "q.ground_speed < 0.5"}
 					],
 					"blend_transition": 0.2
+				},
+				"disparo": {
+					"animations": ["disparo"],
+					"transitions": [
+						{"idle": "q.property('rg:ataques') != 'bola_nieve'"},
+						{"golpe": "q.property('rg:ataques') == 'golpe'"}
+					],
+					"blend_transition": 0.2
+				},
+				"golpe": {
+					"animations": ["golpe"],
+					"transitions": [
+						{"disparo": "q.property('rg:ataques') == 'bola_nieve'"},
+						{"idle": "q.property('rg:ataques') != 'golpe'"}
+					]
 				}
 			}
 		}

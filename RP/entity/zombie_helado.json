@@ -20,6 +20,8 @@
 				"overlay_color": "#ACDBED"
 			},
 			"animations": {
+				"disparo": "animation.zombie.v1.8.disparo",
+				"golpe": "animation.zombie.v1.8.golpe",
 				"humanoid_big_head": "animation.humanoid.big_head",
 				"look_at_target_default": "animation.humanoid.look_at_target.default",
 				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
