@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "rg:armadura_tiritio_helmet",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": { //Tipo de encantamiento
+				"value": 9,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": { //Aqui se define cuabto va a durar.
+				"max_durability": 100,
+				"damage_chance": {
+					"min": 100,
+					"max": 100
+				}
+			},
+			"minecraft:icon": "rg_armadura_tiritio_helmet",
+			"minecraft:wearable": { //En donde va?
+				"slot": "slot.armor.head",
+				"protection": 5
+			},
+			"minecraft:repairable": { //Reparacion
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:iron_ingot"
+						],
+						"repair_amount": "query.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"rg:armadura_tiritio_helmet"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
+					}
+				]
+			}
+		}
+	}
+}

@@ -10,6 +10,42 @@
 		},
 		"rg_tronador": {
 			"textures": "textures/items/tronador"
+		},
+		"rg_armadura_tiritio_helmet": {
+			"textures": "textures/items/armadura_tiritio_helmet"
+		},
+		"rg_armadura_tiritio_chestplate": {
+			"textures": "textures/items/armadura_tiritio_chestplate"
+		},
+		"rg_armadura_tiritio_leggings": {
+			"textures": "textures/items/armadura_tiritio_leggings"
+		},
+		"rg_armadura_tiritio_boots": {
+			"textures": "textures/items/armadura_tiritio_boots"
+		},
+		"rg_espartano_helmet": {
+			"textures": "textures/items/espartano_helmet"
+		},
+		"rg_espartano_chestplate": {
+			"textures": "textures/items/espartano_chestplate"
+		},
+		"rg_espartano_leggings": {
+			"textures": "textures/items/espartano_leggings"
+		},
+		"rg_espartano_boots": {
+			"textures": "textures/items/espartano_boots"
+		},
+		"rg_spider_helmet": {
+			"textures": "textures/items/spider_helmet"
+		},
+		"rg_spider_chestplate": {
+			"textures": "textures/items/spider_chestplate"
+		},
+		"rg_spider_leggings": {
+			"textures": "textures/items/spider_leggings"
+		},
+		"rg_spider_boots": {
+			"textures": "textures/items/spider_boots"
 		}
 	}
 }
